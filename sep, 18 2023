@@ -1,0 +1,32 @@
+Solve the following list using in-place selection sort: 
+
+L = [M,I,C,E]
+
+Using “l” to differentiate between unsorted and sorted 
+
+[| M, I, C, E] 
+
+Iteration 1, 
+
+Selecting ‘c’ as the smallest and moving it to sorted part and incrementhing the unsorted pair
+
+[ C, | M, I, E ]
+
+Iteration 2: 
+
+Selecting ‘E’ 
+
+[ C,E | M, I ]
+
+Iteration 3: 
+
+Selecting ‘I” 
+
+[ C,E,I| M] 
+
+Iteration 4: 
+
+Selecting “M” 
+
+[ C,E,I ,M| ] 
+
